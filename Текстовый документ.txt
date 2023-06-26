@@ -1,0 +1,5 @@
+def read():
+    Key = int(input())
+    print(f'Это', dict(list(pets[Key].values())[0])["Вид питомца"], 'по кличке',"'"+str(*list(pets[Key]))+"'", 'Возраст питомца:', dict(list(pets[Key].values())[0])["Возраст питомца"], 'года')
+   
+read()
